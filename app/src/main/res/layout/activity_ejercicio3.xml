@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Barra de título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B0C4DE"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="PROGRAMACIÓN MULTIMEDIA"
+        android:textStyle="bold" />
+
+    <!-- Franjas: azul | blanco | azul -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000FF" />
+
+        <!-- Franja blanca con los 3 botones apilados -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btnVerde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verde" />
+
+            <Button
+                android:id="@+id/btnTablero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tablero" />
+
+            <Button
+                android:id="@+id/btnMixto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mixto" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Salir" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000FF" />
+    </LinearLayout>
+</LinearLayout>

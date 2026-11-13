@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <!-- Fila 0: la pantalla ocupa las 4 columnas -->
+    <TableRow>
+        <TextView
+            android:id="@+id/tvPantalla"
+            android:layout_span="4"
+            android:layout_height="120dp"
+            android:background="#263238"
+            android:gravity="end|center_vertical"
+            android:padding="16dp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn7" android:layout_height="80dp" android:text="7" />
+        <Button android:id="@+id/btn8" android:layout_height="80dp" android:text="8" />
+        <Button android:id="@+id/btn9" android:layout_height="80dp" android:text="9" />
+        <Button android:id="@+id/btnDividir" android:layout_height="80dp" android:text="/" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn4" android:layout_height="80dp" android:text="4" />
+        <Button android:id="@+id/btn5" android:layout_height="80dp" android:text="5" />
+        <Button android:id="@+id/btn6" android:layout_height="80dp" android:text="6" />
+        <Button android:id="@+id/btnMultiplicar" android:layout_height="80dp" android:text="*" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn1" android:layout_height="80dp" android:text="1" />
+        <Button android:id="@+id/btn2" android:layout_height="80dp" android:text="2" />
+        <Button android:id="@+id/btn3" android:layout_height="80dp" android:text="3" />
+        <Button android:id="@+id/btnRestar" android:layout_height="80dp" android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn0" android:layout_height="80dp" android:text="0" />
+        <Button android:id="@+id/btnPunto" android:layout_height="80dp" android:text="." />
+        <Button android:id="@+id/btnC" android:layout_height="80dp" android:text="C" />
+        <Button android:id="@+id/btnSumar" android:layout_height="80dp" android:text="+" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_span="4"
+            android:layout_height="80dp"
+            android:text="=" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button android:id="@+id/btnEj1" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 1 · Abrir URL" />
+    <Button android:id="@+id/btnEj2" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 2 · Navegación retrasada" />
+    <Button android:id="@+id/btnEj3" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 3 · LinearLayout" />
+    <Button android:id="@+id/btnEj4" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 4 · FrameLayout" />
+    <Button android:id="@+id/btnEj5" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 5 · Calculadora" />
+    <Button android:id="@+id/btnEj6" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Ej. 6 · Perfil" />
+</LinearLayout>
